@@ -18,9 +18,8 @@ const Header = () => {
         <div className="w-[2px] h-full bg-white"></div>
         <div className="flex flex-row items-center cursor-pointer after:w-10/12 after:h-[2px] after:absolute after:bg-transparent hover:after:bg-white after:duration-150 after:-bottom-[1px] after:left-1/2 after:-translate-x-1/2 relative"> Signup</div>
       </div>
-      <div>
-      
-      </div>
+
+      <div className="w-11/12 bg-white h-[3px] absolute -bottom-2 rounded-full"></div>
 
     </div>
   )
