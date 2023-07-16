@@ -35,7 +35,7 @@ const Pricing = () => {
                     </div>
                     
                 </div>
-                <div className="rounded-md relative w-64 h-[27rem] border-2 bg-black opacity-80 cursor-pointer duration-200 hover:scale-[101%]">
+                <div className="rounded-md relative w-64 h-[27rem] border-2 bg-black opacity-80 duration-200 hover:scale-[101%]">
                     <div className="h-1/2 w-full absolute top-[13rem] left-[10rem] -translate-x-1/2 -translate-y-1/2 -z-10">
                         <Image src={"/biggergun.webp"} width={200} height={200} alt="Still blind" className="blur-sm w-64 h-48 transform -scale-x-100 -rotate-[60deg]"/>
                     </div>
@@ -60,7 +60,7 @@ const Pricing = () => {
                     </div>
                     
                 </div>
-                <div className="rounded-md relative w-64 h-[27rem] border-2 bg-black opacity-80 cursor-pointer duration-200 hover:scale-[101%]">
+                <div className="rounded-md relative w-64 h-[27rem] border-2 bg-black opacity-80 duration-200 hover:scale-[101%]">
                     <div className="absolute top-36 -z-10">
                             <Image src={"/gtarpg.webp"} width={384} height={187} alt="Still blind" className="blur-sm w-full h-full -rotate-[60deg]"/>
                     </div>
