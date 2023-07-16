@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { airstikeOutlineRegular, airstikePlatinumRegular, airstikeRegular } from '@/utils/fonts'
 import { ButtonWhiteOutline } from '@/components/buttons/whiteOutline'
+import Link from 'next/link'
 
 
 
@@ -14,8 +15,8 @@ export default function Home() {
       <h3 className='text-center text-xl text-white/70 mt-28'>A modern redesign of the GTAV mod menu</h3>
 
       <div className='flex flex-row justify-center gap-2 mt-2'>
-        <ButtonWhiteOutline >Get Started</ButtonWhiteOutline>
-        <ButtonWhiteOutline>Features</ButtonWhiteOutline>
+        <Link href={"/pricing"}><ButtonWhiteOutline >Get Started</ButtonWhiteOutline></Link>
+        <Link href={"/features"}><ButtonWhiteOutline>Features</ButtonWhiteOutline></Link>
       </div>
 
 
