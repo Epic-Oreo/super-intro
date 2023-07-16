@@ -1,3 +1,4 @@
+import Footer from '@/components/footer/footer'
 import Header from '@/components/header/betterHeader'
 import '@/styles/globals.css'
 import { Inter,Open_Sans } from 'next/font/google'
@@ -9,6 +10,7 @@ export default function App({ Component, pageProps }) {
 
     <Header/>
     <Component {...pageProps} />
+    <Footer/>
 
    </main>)
 }
