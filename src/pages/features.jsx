@@ -41,6 +41,7 @@ const Features = () => {
 
   return (
     <div>
+      <div className="absolute h-screen w-full bg-gradient-to-r from-cyan-500 to-blue-500 blur-xl brightness-50 -z-10"></div>
       <h1 className="text-7xl font-semibold text-center mt-5">Features</h1>
       <div className="flex flex-row justify-center mt-10 gap-4">
         <div className="flex flex-col w-96 gap-4">
