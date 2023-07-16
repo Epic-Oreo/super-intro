@@ -26,3 +26,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  /* Customize the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
+}

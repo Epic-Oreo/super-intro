@@ -13,15 +13,7 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       animation: {
-        'shadow-pulse': 'shadowpulse 3s linear infinite',
-      },
-      keyframes: {
-        shadowpulse: {
-          '0%, 100%': { 
-           dropShadow : 'drop-shadow-[0_0px_5px_rgba(255,255,255,0.3)]' 
-          },
-          '50%': { transform: 'rotate(3deg)' },
-        }
+
       },
     },
   },
