@@ -1,5 +1,6 @@
 import Header from "@/components/header/betterHeader"
 import Image from "next/image"
+import Link from "next/link"
 
 const Pricing = () => {
     return(
@@ -9,9 +10,9 @@ const Pricing = () => {
             {/* payment plans */}
             <div className="flex w-full h-full gap-8 mt-12 justify-center absolute top-60 left-0">
                 
-                <div className="rounded-md relative w-64 h-96 border-2 bg-black opacity-80 cursor-pointer duration-200 hover:scale-[101%]">
-                    <div className="h-full w-full absolute top-[18rem] left-[10rem] -translate-x-1/2 -translate-y-1/2 -z-10">
-                        <Image src={"/pistol.webp"} width={200} height={200} alt="Still blind" className="w-4/5 h-3/8 -rotate-[60deg] blur-sm"/>
+                <div className="rounded-md relative w-64 h-[27rem] border-2 bg-black opacity-80 duration-200 hover:scale-[101%]">
+                    <div className="h-1/2 w-full absolute top-[14rem] left-[10rem] -translate-x-1/2 -translate-y-1/2 -z-10">
+                        <Image src={"/pistol.webp"} width={200} height={200} alt="Still blind" className="w-[12.8rem] h-36 -rotate-[60deg] blur-sm"/>
                     </div>
                     <div className="h-full w-full">
                         <h1 className="text-center text-3xl mt-3 font-semibold">Light</h1>
@@ -30,12 +31,13 @@ const Pricing = () => {
                         <hr className="mt-6 border-1 w-1/4 absolute left-[9.1rem]"></hr>
                         <h1 className="font-bold text-2xl absolute mt-8 left-1/2 top-[16.2rem] -translate-x-1/2">OR</h1>
                         <h1 className="text-center mt-12 font-bold text-xl text-red-300">$25 One Time</h1>
+                        <button className="absolute left-1/2 -translate-x-1/2 border-2 mt-2 p-1 px-6 rounded-lg hover:bg-white hover:text-black cursor-pointer duration-200">Purchase</button>
                     </div>
                     
                 </div>
-                <div className="rounded-md relative w-64 h-96 border-2 bg-black opacity-80 cursor-pointer duration-200 hover:scale-[101%]">
-                    <div className="h-full w-full absolute top-[18rem] left-[10rem] -translate-x-1/2 -translate-y-1/2 -z-10">
-                        <Image src={"/biggergun.webp"} width={200} height={200} alt="Still blind" className="blur-sm w-full h-1/2 transform -scale-x-100 -rotate-[60deg]"/>
+                <div className="rounded-md relative w-64 h-[27rem] border-2 bg-black opacity-80 cursor-pointer duration-200 hover:scale-[101%]">
+                    <div className="h-1/2 w-full absolute top-[13rem] left-[10rem] -translate-x-1/2 -translate-y-1/2 -z-10">
+                        <Image src={"/biggergun.webp"} width={200} height={200} alt="Still blind" className="blur-sm w-64 h-48 transform -scale-x-100 -rotate-[60deg]"/>
                     </div>
                     <div className="h-full w-full">
                         <h1 className="text-center text-3xl mt-3 font-semibold">Medium</h1>
@@ -54,10 +56,11 @@ const Pricing = () => {
                         <hr className="mt-6 border-1 w-1/4 absolute left-[9.1rem]"></hr>
                         <h1 className="font-bold text-2xl absolute mt-8 left-1/2 top-[16.2rem] -translate-x-1/2">OR</h1>
                         <h1 className="text-center mt-12 font-bold text-xl text-red-300">$40 One Time</h1>
+                        <button className="absolute left-1/2 -translate-x-1/2 border-2 mt-2 p-1 px-6 rounded-lg hover:bg-white hover:text-black cursor-pointer duration-200">Purchase</button>
                     </div>
                     
                 </div>
-                <div className="rounded-md relative w-64 h-96 border-2 bg-black opacity-80 cursor-pointer duration-200 hover:scale-[101%]">
+                <div className="rounded-md relative w-64 h-[27rem] border-2 bg-black opacity-80 cursor-pointer duration-200 hover:scale-[101%]">
                     <div className="absolute top-36 -z-10">
                             <Image src={"/gtarpg.webp"} width={384} height={187} alt="Still blind" className="blur-sm w-full h-full -rotate-[60deg]"/>
                     </div>
@@ -78,10 +81,16 @@ const Pricing = () => {
                         <hr className="mt-6 border-1 w-1/4 absolute left-[9.1rem]"></hr>
                         <h1 className="font-bold text-2xl absolute mt-8 left-1/2 top-[16.2rem] -translate-x-1/2">OR</h1>
                         <h1 className="text-center mt-12 font-bold text-xl text-red-300">$100 One Time</h1>
+                        <button className="absolute left-1/2 -translate-x-1/2 border-2 mt-2 p-1 px-6 rounded-lg hover:bg-white hover:text-black cursor-pointer duration-200">Purchase</button>
                     </div>
                     
                 </div>
+                <div className="absolute top-2/3">
+                    <Link href={"/features"}><button className="py-4 px-8 border-2 rounded-lg bg-black hover:bg-white hover:text-black duration-200 font-semibold">Features</button></Link>
+                </div>
+                <div className="absolute top-[92%] text-center"><h1>© Comp Hax Inc</h1><h4 className="mt-[.5rem] text-[.5rem]">2023-2029 Google Services</h4></div>
             </div>
+            
 
 
         </div>
