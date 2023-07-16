@@ -85,10 +85,9 @@ const Pricing = () => {
                     </div>
                     
                 </div>
-                <div className="absolute top-2/3">
+                <div className="absolute top-[60%]">
                     <Link href={"/features"}><button className="py-4 px-8 border-2 rounded-lg bg-black hover:bg-white hover:text-black duration-200 font-semibold">Features</button></Link>
                 </div>
-                <div className="absolute top-[92%] text-center"><h1>© Comp Hax Inc</h1><h4 className="mt-[.5rem] text-[.5rem]">2023-2029 Google Services</h4></div>
             </div>
             
 

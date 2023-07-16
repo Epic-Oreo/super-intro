@@ -26,3 +26,23 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
+  background-color: #222;
+  border-radius: 999rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  /* Customize the scrollbar thumb */
+  background-color: #111;
+  border-radius: 999rem;
+}
