@@ -85,7 +85,7 @@ const Pricing = () => {
                     </div>
                     
                 </div>
-                <div className="absolute top-[60%]">
+                <div className="absolute top-[70%]">
                     <Link href={"/features"}><button className="py-4 px-8 border-2 rounded-lg bg-black hover:bg-white hover:text-black duration-200 font-semibold">Features</button></Link>
                 </div>
             </div>
